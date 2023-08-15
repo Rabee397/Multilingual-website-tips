@@ -1,0 +1,8 @@
+-start your website with the default langauge (english , left to right) if you want your website to have 
+more than the default.
+-if you want to write the whole website (right to left) add dir="rtl" on html tag.
+-if you want specific sentence to be written in it's main direction (for example Arabic sentence) in english direction
+use <bdi> tag.
+-if you want to insert Arabic words inside input elemnts (in english dir) use attribute dir="auto".
+-try to use margin and padding on both (left and right).
+-when it comes to icons that have directions like arrows it's better to write it with psuedo element.
